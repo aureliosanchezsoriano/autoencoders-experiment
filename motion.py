@@ -23,7 +23,7 @@ def registrar_movimiento(fecha_hora):
         archivo.write(f"{fecha_hora}\n")
 
 try:
-    time.sleep(600) # 10 minutes delay, until the device is placed 
+    time.sleep(300) # 5 minutes delay, until the device is placed 
     fecha_actual = datetime.now().strftime("%Y-%m-%d") # Current date
     while True:
         if GPIO.input(SENSOR_PIN):  # Movement detected
