@@ -10,7 +10,9 @@ This project focuses on using artificial intelligence techniques to detect anoma
 
 - HC-SR312 Presence Sensor: Connected to the GPIO pin 17 for data collection.
 
-![materials](img/raspberry.png)
+![materials](img/raspberry.jpg)
+![materials](img/sensor.jpg)
+![materials](img/raspberry_installed.jpg)
 
 ## Steps
 
